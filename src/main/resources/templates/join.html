@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Join</title>
+</head>
+<body>
+
+<h1 th:text="${group}"></h1>
+
+<form action="/join" method="post">
+    <input type="text" name="group" id="group-ip" class="field" />
+    <button>Join now</button>
+</form>
+
+</body>
+</html>
